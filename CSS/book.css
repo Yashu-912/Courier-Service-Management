@@ -1,0 +1,80 @@
+body{
+	font-size: 19px;
+	padding: 25px;
+	left: 50%;
+	background-color:black;
+	background-image: url(../bookingorderimg.jpg);
+	background-size: cover;
+
+}
+
+form {
+	width: 45%;
+	position: relative;
+	margin-top: -700px;
+	margin-left: 400px; 
+	text-align: left;
+	padding: 30px;
+	border:1px solid #bbbbbb;
+	border-radius: 15px;
+	background-color: rgba(15, 18, 22, 0.712);
+	color: white;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	background-color: black;
+	color: white;
+}
+
+.input-group input:focus-within {
+	border-color: rgb(0, 151, 63);
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgb(0, 141, 82);
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.msg {
+	margin: 30px auto;
+	padding: 10px;
+	border-radius: 5px;
+	color: #89ff8b;
+	background: #384732;
+	border: 1px solid #3c763d;
+	width: 50%;
+	text-align: center;
+}
+.edit_btn {
+	text-decoration: none;
+	padding: 2px 5px;
+	background: #2E8B57;
+	color: white;
+	border-radius: 3px;
+}
+.del_btn {
+	text-decoration: none;
+	padding: 2px 5px;
+	color: white;
+	border-radius: 3px;
+	background: #800000;
+}
